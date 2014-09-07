@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow" >
+
+    <Button
+        android:id="@+id/video1Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play the video 'loca'" />
+
+    <Button
+        android:id="@+id/video2Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play the video 'rabiosa'" />
+
+    <Button
+        android:id="@+id/resetVideoButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Playing" />
+
+    <SurfaceView
+        android:id="@+id/surfaceVideoview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
